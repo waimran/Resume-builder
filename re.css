@@ -1,0 +1,69 @@
+body {
+    font-family: 'This New Roman', Times , Serif;
+    margin: 20px;
+    padding: 0;
+    background-color: bisque;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(8, 0, 255);
+
+}
+
+form {
+    max-width:  600px;
+    margin:  auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px black(0, 0, 0, 0.5);
+    padding: 20px;
+}
+feBlend {
+    border: 20px solid;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(127, 157, 255);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    color: violet;
+}
+input,textarea{
+    width: calc(100% - 15px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:aqua;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+output {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    background-color: aquamarine;
+    box-shadow: 0 4px black(0, 0, 0, 0.5);
+}
+output h2 {
+    color: blue;
+}
